@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  font-family: "Bebas Neue", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: "Bebas Neue", cursive;
+  font-size: 12px;
+}
+header {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  justify-content: center;
+  grid-template-rows: none;
+  background-color: #de3844;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  overflow: hidden;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+.barra-nav {
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+a:hover {
+  color: black;
+}
+.container-galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-auto-rows: 400px;
+  grid-gap: 15px;
+}
+.qotsa-1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  grid-row: 3 span;
+  margin-top: 5px;
+}
+.qotsa-2 {
+  height: 100%;
+  width: 100%;
+  grid-column: 2 span;
+  margin-top: 5px;
+}
+.qotsa-3 {
+  height: 100%;
+  width: 100%;
+}
+.qotsa-4 {
+  height: 100%;
+  width: 100%;
+  grid-row: 2 span;
+}
+.qotsa-5 {
+  height: 100%;
+  width: 100%;
+  grid-column: 1 / 4;
+  grid-row: 4 / 4;
+}
+.qotsa-6 {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 5px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #91b3b2;
+  margin-top: 10px;
+}
+.redes {
+  display: inline;
+  padding: 5px;
+  margin: 5px;
+  overflow: hidden;
+  display: inline-block;
+}
+.qotsa-1:hover {
+  transform: scale(1.02);
+  box-shadow: 1px 1px 5px 1px gray;
+}
+.qotsa-2:hover {
+  transform: scale(1.02);
+  box-shadow: 1px 1px 5px 1px gray;
+}
+.qotsa-3:hover {
+  transform: scale(1.02);
+  box-shadow: 1px 1px 5px 1px gray;
+}
+.qotsa-4:hover {
+  transform: scale(1.02);
+  box-shadow: 1px 1px 5px 1px gray;
+}
+.qotsa-5:hover {
+  transform: scale(1.02);
+  box-shadow: 1px 1px 5px 1px gray;
+}
+.qotsa-6:hover {
+  transform: scale(1.02);
+  box-shadow: 1px 1px 5px 1px gray;
+}

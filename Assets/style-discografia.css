@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  font-family: "Bebas Neue", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: "Bebas Neue", cursive;
+  font-size: 12px;
+}
+header {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  justify-content: center;
+  grid-template-rows: none;
+  background-color: #de3844;
+  font-size: 30px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  overflow: hidden;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+.barra-nav {
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+a:hover {
+  color: black;
+}
+#container-flex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  padding: 30px;
+}
+.villains {
+  border-radius: 15px;
+  margin: 5px 20px 5px 5px;
+  grid-row: span 2;
+}
+.qotsa {
+  border-radius: 15px;
+  margin: 5px;
+}
+.rated-r {
+  border-radius: 15px;
+  margin: 5px;
+}
+.sons-for {
+  border-radius: 15px;
+  margin: 5px;
+}
+.lullabies {
+  border-radius: 15px;
+  margin: 5px;
+}
+.era-vulgaris {
+  border-radius: 15px;
+  margin: 5px;
+}
+.like-clockwork {
+  border-radius: 15px;
+  margin: 5px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #91b3b2;
+}
+.redes {
+  display: inline;
+  padding: 5px;
+  margin: 5px;
+  overflow: hidden;
+  display: inline-block;
+}
+.villains:hover {
+  transform: scale(1.02);
+}
+.qotsa:hover {
+  transform: scale(1.02);
+}
+.rated-r:hover {
+  transform: scale(1.02);
+}
+.sons-for:hover {
+  transform: scale(1.02);
+}
+.lullabies:hover {
+  transform: scale(1.02);
+}
+.era-vulgaris:hover {
+  transform: scale(1.02);
+}
+.like-clockwork:hover {
+  transform: scale(1.02);
+}
